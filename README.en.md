@@ -1,6 +1,6 @@
 # Det Eval Lab · Object detection evaluation
 
-[中文](README.md) · [Sources](SOURCES.md) · [AI disclosure](AI_USE.md)
+[中文](README.md) · [Sources](SOURCES.md)
 
 Turn annotation and detection CSVs into an auditable evaluation report: invalid boxes are
 rejected first, then score-ordered greedy IoU matching runs per image and class, producing
