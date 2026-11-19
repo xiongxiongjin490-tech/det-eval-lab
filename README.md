@@ -1,6 +1,6 @@
 # Det Eval Lab · 目标检测评估台
 
-[English](README.en.md) · [来源说明](SOURCES.md) · [AI 辅助说明](AI_USE.md)
+[English](README.en.md) · [来源说明](SOURCES.md)
 
 把标注与检测结果 CSV 变成可审查的评估报告：先校验框体合法性，再按图像与类别做 IoU 贪心匹配，输出逐类 Precision / Recall、PR 曲线点和 AP@0.5、mAP@0.5。项目独立编写，不包含检测器、模型权重、训练流程或公开数据集。
 
