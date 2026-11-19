@@ -1,0 +1,6 @@
+class,score,recall,precision
+bolt,0.92,0.3333333333333333,1.0
+bolt,0.81,0.6666666666666666,1.0
+bolt,0.66,1.0,1.0
+bracket,0.88,0.5,1.0
+bracket,0.74,0.5,0.5

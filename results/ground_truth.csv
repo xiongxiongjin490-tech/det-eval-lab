@@ -1,0 +1,6 @@
+image_id,class,x1,y1,x2,y2
+img1,bolt,10,10,50,50
+img1,bracket,60,10,100,50
+img2,bolt,10,10,50,50
+img3,bracket,10,20,60,70
+img4,bolt,20,20,70,80

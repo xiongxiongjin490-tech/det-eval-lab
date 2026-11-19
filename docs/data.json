@@ -1,0 +1,69 @@
+{
+  "data_kind": "synthetic-demo",
+  "report": {
+    "iou_threshold": 0.5,
+    "classes": [
+      {
+        "class": "bolt",
+        "ground_truth": 3,
+        "detections": 3,
+        "tp": 3,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "ap": 1.0
+      },
+      {
+        "class": "bracket",
+        "ground_truth": 2,
+        "detections": 2,
+        "tp": 1,
+        "fp": 1,
+        "fn": 1,
+        "precision": 0.5,
+        "recall": 0.5,
+        "ap": 0.5
+      }
+    ],
+    "pr_curves": {
+      "bolt": [
+        {
+          "score": 0.92,
+          "recall": 0.3333333333333333,
+          "precision": 1.0
+        },
+        {
+          "score": 0.81,
+          "recall": 0.6666666666666666,
+          "precision": 1.0
+        },
+        {
+          "score": 0.66,
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      ],
+      "bracket": [
+        {
+          "score": 0.88,
+          "recall": 0.5,
+          "precision": 1.0
+        },
+        {
+          "score": 0.74,
+          "recall": 0.5,
+          "precision": 0.5
+        }
+      ]
+    },
+    "mAP": 0.75,
+    "macro_precision": 0.75,
+    "macro_recall": 0.75,
+    "totals": {
+      "tp": 4,
+      "fp": 1,
+      "fn": 1
+    }
+  }
+}
